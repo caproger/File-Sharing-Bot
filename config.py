@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "bd5e4bb84ebe0eb5bfe546ba97e46dc0")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6685011654"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://filestorebot:<password>@cluster0.t1tc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://filestorebot:filestorebot@cluster0.t1tc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "cinemasterminal")
 
 
